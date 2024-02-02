@@ -1,0 +1,52 @@
+# Ignore temporary files
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore build and dependency directories
+/target/
+/node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore user-specific files
+.idea/
+.vscode/
+
+# Ignore generated documentation
+/docs/
+
+# Ignore Jekyll build directory
+_site/
+
+# Ignore macOS folder attributes
+.metadata/
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+
+# Ignore archive files
+*.zip
+*.gz
+*.tar
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
