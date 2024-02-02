@@ -1,6 +1,6 @@
 //207323411 Itamar Shapira
 //207272220 Dolev Menajem
-//207272220 dvir Menajem
+//207272220 ori
 
 /**
  * The Velocity class represents a 2D velocity vector with components for the horizontal and vertical directions.
