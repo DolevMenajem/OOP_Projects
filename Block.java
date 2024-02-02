@@ -4,11 +4,11 @@
 public class Block implements Collidable {
     private Rectangle shape;
     
-    Rectangle getCollisionRectangle() {
+    public Rectangle getCollisionRectangle() {
         return this.shape;
     }
 
-    Velocity hit(Point collisionPoint, Velocity currentVelocity) {
+    public Velocity hit(Point collisionPoint, Velocity currentVelocity) {
         Line[] shapeBorders = this.shape.getBorders();
         double dx = currentVelocity.getdx();
         double dy = currentVelocity.getdy();
